@@ -23,6 +23,13 @@ const genreList = [
 
 
 
+},
+
+{
+    name: 'Reggae',
+    origin: 'Jamaica',
+    popular: 'Yes',
+    avgTempo: '90'
 }
 ]
 
