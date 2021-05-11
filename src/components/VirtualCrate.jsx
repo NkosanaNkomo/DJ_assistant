@@ -8,7 +8,7 @@ class VirtualCrate extends Component {
             list:[]
         }
     }
-// grabs the user input and sends it into state
+
     changeUserInput=(input)=>{
         this.setState({
             userInput: input
@@ -18,7 +18,7 @@ class VirtualCrate extends Component {
         )
     }
 
-    // take the user input form state and add to the list
+    
     addToList=(input)=>{
         
         let listArray = this.state.list
@@ -36,7 +36,7 @@ class VirtualCrate extends Component {
     }
     render() {
         return (
-            <div>
+            <div className='virtualCrate'>
                 <h1>Virtual To Get list</h1>
                 <input 
                 type="text" 
@@ -49,7 +49,7 @@ class VirtualCrate extends Component {
 
                 }
                 />
-                <button onClick={()=>this.addToList(this.state.userInput)} >Add to get list</button>
+                <button onClick={()=>this.addToList(this.state.userInput)} >Add to Remember List</button>
                 
 
                 <ul>

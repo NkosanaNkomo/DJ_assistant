@@ -4,17 +4,20 @@ import GenreCountry from './GenreCountry';
 import Mixes from './Mixes';
 import MusicCharts from './MusicCharts';
 import VirtualCrate from './VirtualCrate';
+import Zodiac from './Zodiac';
 
 
 class Container extends Component {
     render() {
         return (
-            <div>
+            <div className='container'>
             {/* <MusicCharts /> */}
             <Clock />
+            {/* <Zodiac /> */}
             <VirtualCrate />
-            <GenreCountry />  
+            {/* <GenreCountry />   */}
             <Mixes />
+            
             </div>
         );
     }

@@ -4,7 +4,7 @@ body {
   height: auto;
   color: blueviolet;
   font-family: cursive;
-  text-shadow: black 7px 7px 7px;
+  text-shadow: grey 7px 7px 7px;
   
 }
 
@@ -14,5 +14,50 @@ body {
 }
 
 .zodiac {
+  border: 1px solid black;
+  height: 55vh;
+  width: 40vw;
+  box-shadow: black 7px 7px 7px;
+  background-color: black;
+  /* grid-area: 2 / 2 / 5 / 5; */
+  opacity: 1;
+  /* background-image: url(./components/images/zodiacDates.jpeg); */
   
+}
+
+.container{
+  display: grid;
+  /* grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%; */
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
+  /* border: 1px solid black; */
+  height: 90vh;
+  width: 90vw;
+
+  opacity: .8;
+  
+  
+  
+  
+}
+
+.mixes {
+  border: 1px solid black;
+    height: 55vh;
+    width: 40vw;
+    box-shadow: black 7px 7px 7px;
+    background-color: black;
+    /* grid-area: 2 / 2 / 5 / 5; */
+    opacity: 1;
+}
+
+.virtualCrate {
+  border: 1px solid black;
+  height: 55vh;
+  width: 40vw;
+  box-shadow: black 7px 7px 7px;
+  background-color: black;
+  /* grid-area: 2 / 2 / 5 / 5; */
+  opacity: 1;
 }
