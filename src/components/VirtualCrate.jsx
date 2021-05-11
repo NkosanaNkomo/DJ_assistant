@@ -20,7 +20,7 @@ class VirtualCrate extends Component {
 
     // take the user input form state and add to the list
     addToList=(input)=>{
-        // need a variable to act as the list in state
+        
         let listArray = this.state.list
 
         listArray.push(input)
