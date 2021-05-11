@@ -2,4 +2,17 @@ body {
   background-image: url(./components/images/sam-mar-OQOKSsj8QME-unsplash.jpg) ;
   background-size: 100vw;
   height: auto;
+  color: blueviolet;
+  font-family: cursive;
+  text-shadow: black 7px 7px 7px;
+  
+}
+
+.h2 {
+  color: hotpink;
+  
+}
+
+.zodiac {
+  
 }
