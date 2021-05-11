@@ -52,11 +52,11 @@ class VirtualCrate extends Component {
                 <button onClick={()=>this.addToList(this.state.userInput)} >Add to Remember List</button>
                 
 
-                <ul>
+                <ol>
                     {this.state.list.map((itemInTheList,i)=>{
                        return <h2 className='h2'><li>{itemInTheList}</li></h2>
                     })}
-                </ul>
+                </ol>
             </div>
         );
     }

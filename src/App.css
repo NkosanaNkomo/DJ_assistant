@@ -22,6 +22,7 @@ body {
   /* grid-area: 2 / 2 / 5 / 5; */
   opacity: 1;
   /* background-image: url(./components/images/zodiacDates.jpeg); */
+  padding-left: 40px;
   
 }
 
@@ -45,11 +46,12 @@ body {
 .mixes {
   border: 1px solid black;
     height: 55vh;
-    width: 40vw;
+    width: 70vw;
     box-shadow: black 7px 7px 7px;
     background-color: black;
     /* grid-area: 2 / 2 / 5 / 5; */
     opacity: 1;
+    padding-left: 150px;
 }
 
 .virtualCrate {
@@ -60,4 +62,5 @@ body {
   background-color: black;
   /* grid-area: 2 / 2 / 5 / 5; */
   opacity: 1;
+  padding-left: 80px;
 }
