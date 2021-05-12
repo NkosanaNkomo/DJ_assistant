@@ -10,7 +10,8 @@ class Clock extends Component {
         return (
             <div className='zodiac'>
                 <h1>Monsieur Vybz!</h1>
-                <h2 className='h2'>It is {this.state.date.toLocaleString()}.</h2>
+                <h2 className='h2'>Time is: {this.state.date.toLocaleTimeString()}.</h2>
+                <h2 className='h2'>and the date is: {this.state.date.toLocaleDateString()}</h2>
                 
             
                 
