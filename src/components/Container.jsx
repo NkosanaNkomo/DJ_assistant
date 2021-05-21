@@ -41,8 +41,8 @@ class Container extends Component {
 }
 
 const Home = ()=> (
-    <div>
-      <h1>Home</h1>
+    <div className="home">
+      <h3>Home</h3>
     </div>
   )
 

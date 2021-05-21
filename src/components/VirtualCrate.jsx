@@ -49,7 +49,7 @@ class VirtualCrate extends Component {
 
                 }
                 />
-                <button onClick={()=>this.addToList(this.state.userInput)} >Add to Remember List</button>
+               <button onClick={()=>this.addToList(this.state.userInput)} >Add to TO GET List</button>
                 
 
                 <ol>

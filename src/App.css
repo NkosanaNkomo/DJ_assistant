@@ -1,5 +1,5 @@
 body {
-  background-image: url(./components/images/whiteTurntableTwo.jpg) ;
+  background-image: url(./components/images/vinylGif.gif) ;
   background-size: 100vw;
   height: auto;
   color: red;
@@ -16,6 +16,14 @@ body {
   
  
   
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: greenyellow;
 }
 
 .clock{
@@ -86,11 +94,12 @@ body {
   border: 1px solid whitesmoke;
   height: 55vh;
   width: 40vw;
+  font-size: 30px;
   box-shadow: black 7px 7px 7px;
   background-color: whitesmoke;
   /* grid-area: 2 / 2 / 5 / 5; */
   opacity: 1;
-  padding-left: 300px;
+  padding-left: 40px;
   padding-top: 150px;
 }
 
@@ -101,4 +110,10 @@ body {
   width: 10vw;
   box-shadow: black 7px 7px 7px;
   padding-left: 20px;
+}
+
+.home {
+  font-size: 300px;
+  padding-bottom: 700px;
+  
 }
