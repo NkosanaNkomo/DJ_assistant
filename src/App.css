@@ -1,28 +1,34 @@
 body {
-  background-image: url(./components/images/sam-mar-OQOKSsj8QME-unsplash.jpg) ;
+  background-image: url(./components/images/whiteTurntableTwo.jpg) ;
   background-size: 100vw;
   height: auto;
-  color: blueviolet;
-  font-family: cursive;
+  color: solid black;
+  font-family: Arial, Helvetica, sans-serif;
   text-shadow: grey 7px 7px 7px;
+  
   
 }
 
 .h2 {
-  color: hotpink;
+  color: black;
   
 }
 
 .zodiac {
-  border: 1px solid black;
+  border: 1px solid whitesmoke;
   height: 55vh;
   width: 40vw;
   box-shadow: black 7px 7px 7px;
-  background-color: black;
+  background-color: whitesmoke;
   /* grid-area: 2 / 2 / 5 / 5; */
   opacity: 1;
   /* background-image: url(./components/images/zodiacDates.jpeg); */
   padding-left: 40px;
+  font-size: 100px ;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding-top: 20px;
   
 }
 
@@ -36,7 +42,7 @@ body {
   height: 90vh;
   width: 90vw;
 
-  opacity: .8;
+  opacity: .5;
   
   
   
@@ -44,23 +50,31 @@ body {
 }
 
 .mixes {
-  border: 1px solid black;
+  border: 1px solid whitesmoke;
     height: 55vh;
     width: 70vw;
     box-shadow: black 7px 7px 7px;
-    background-color: black;
+    background-color: whitesmoke;
     /* grid-area: 2 / 2 / 5 / 5; */
-    opacity: 1;
+    opacity: .7;
     padding-left: 150px;
 }
 
 .virtualCrate {
-  border: 1px solid black;
+  border: 1px solid whitesmoke;
   height: 55vh;
   width: 40vw;
   box-shadow: black 7px 7px 7px;
-  background-color: black;
+  background-color: whitesmoke;
   /* grid-area: 2 / 2 / 5 / 5; */
   opacity: 1;
   padding-left: 80px;
+}
+
+.navBar {
+  border: 1px solid whitesmoke;
+  background-color: whitesmoke;
+  height: 46vh;
+  width: 10vw;
+  box-shadow: black 7px 7px 7px;
 }

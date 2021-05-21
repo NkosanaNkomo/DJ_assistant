@@ -6,17 +6,31 @@ class Clock extends Component {
         this.state = {date: new Date()};
         
     }
-    render() {
-        return (
-            <div className='zodiac'>
-                <h1>Monsieur Vybz!</h1>
-                <h2 className='h2'>Time is: {this.state.date.toLocaleTimeString()}.</h2>
-                <h2 className='h2'>and the date is: {this.state.date.toLocaleDateString()}</h2>
-                
-            
-                
-            </div>
-        );
+
+
+//This happens when the component mount and the setInterval function get called with a call back function updateClock()
+componentDidMount() {
+    this.intervalID = setInterval(() =>
+    this.updateClock(),
+    1000
+    );}
+    
+    //This section clears setInterval by calling intervalID so as to optimise memory
+    componentWillUnmount(){
+    clearInterval(this.intervalID)
     }
-}
-export default Clock;
+    
+    //This function set the state of the time to a new time
+    updateClock(){
+    this.setState({
+    time: new Date().toLocaleTimeString()
+    });
+    }
+    render() {
+    return (
+    <div className="zodiac">
+         <p> The time is: {this.state.time}</p>
+    </div>
+    );}
+    }
+    export default Clock;

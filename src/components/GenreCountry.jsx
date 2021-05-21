@@ -13,7 +13,7 @@ glist = () => {
         return (
             <div>
                 <h1>Genre by Country</h1>
-                <h2>{this.glist()}</h2>
+                
             </div>
         );
     }
