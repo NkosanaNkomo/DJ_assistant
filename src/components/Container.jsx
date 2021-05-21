@@ -24,7 +24,7 @@ class Container extends Component {
             <Route path="/" exact component={Home}/>
             <Route path="/clock" component={Clock}/>
             <Route path="/todolist" component={VirtualCrate}/>
-            <Route path="/musiccharts" component={MusicCharts}/>
+            {/* <Route path="/musiccharts" component={MusicCharts}/> */}
             <Route path="/zodiac" component={Zodiac}/>
             <Route path="/mixes" component={Mixes}/>
             {/* <Route path="/genrebycountry" component={GenreCountry}/> */}

@@ -8,7 +8,7 @@ class Clock extends Component {
     }
 
 
-//This happens when the component mount and the setInterval function get called with a call back function updateClock()
+//This happens when the component mounts and the setInterval function gets called with a call back function updateClock()
 componentDidMount() {
     this.intervalID = setInterval(() =>
     this.updateClock(),
@@ -28,7 +28,7 @@ componentDidMount() {
     }
     render() {
     return (
-    <div className="zodiac">
+    <div className="clock">
          <p> The time is: {this.state.time}</p>
     </div>
     );}

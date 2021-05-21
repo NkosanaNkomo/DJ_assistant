@@ -2,9 +2,11 @@ body {
   background-image: url(./components/images/whiteTurntableTwo.jpg) ;
   background-size: 100vw;
   height: auto;
-  color: solid black;
-  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+  font-family: road rage;
   text-shadow: grey 7px 7px 7px;
+  text-decoration: none;
+  
   
   
 }
@@ -12,23 +14,43 @@ body {
 .h2 {
   color: black;
   
+ 
+  
 }
 
-.zodiac {
+.clock{
   border: 1px solid whitesmoke;
-  height: 55vh;
-  width: 40vw;
-  box-shadow: black 7px 7px 7px;
+  height: 60vh;
+  width: 55vw;
+  box-shadow: black 7px 7px 7px 7px;
   background-color: whitesmoke;
   /* grid-area: 2 / 2 / 5 / 5; */
   opacity: 1;
   /* background-image: url(./components/images/zodiacDates.jpeg); */
-  padding-left: 40px;
+  padding-left: 220px;
   font-size: 100px ;
   display: flex;
   align-content: center;
   justify-content: center;
   padding-top: 20px;
+}
+
+.zodiac {
+  border: 1px solid whitesmoke;
+  height: 60vh;
+  width: 37vw;
+  box-shadow: black 7px 7px 7px 7px;
+  background-color: whitesmoke;
+  /* grid-area: 2 / 2 / 5 / 5; */
+  opacity: 1;
+  background-image: url(./components/images/zodiacDates.jpeg);
+  padding-left: 40px;
+  font-size: 70px ;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding-top: 20px;
+  background-repeat: no-repeat;
   
 }
 
@@ -51,13 +73,13 @@ body {
 
 .mixes {
   border: 1px solid whitesmoke;
-    height: 55vh;
-    width: 70vw;
+    height: 95vh;
+    width: 45vw;
     box-shadow: black 7px 7px 7px;
     background-color: whitesmoke;
     /* grid-area: 2 / 2 / 5 / 5; */
-    opacity: .7;
-    padding-left: 150px;
+    opacity: 1;
+    padding-left: 170px;
 }
 
 .virtualCrate {
@@ -68,13 +90,15 @@ body {
   background-color: whitesmoke;
   /* grid-area: 2 / 2 / 5 / 5; */
   opacity: 1;
-  padding-left: 80px;
+  padding-left: 300px;
+  padding-top: 150px;
 }
 
 .navBar {
   border: 1px solid whitesmoke;
   background-color: whitesmoke;
-  height: 46vh;
+  height: 36vh;
   width: 10vw;
   box-shadow: black 7px 7px 7px;
+  padding-left: 20px;
 }

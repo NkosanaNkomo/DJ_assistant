@@ -22,11 +22,11 @@ function Navbar() {
                 <Link to ="/mixes">
                 <h2>Mixes</h2>
                 </Link>
-                <Link to ="/genrebycountry">
+                {/* <Link to ="/genrebycountry">
                 <h2>Genres</h2>
-                </Link>
+                </Link> */}
                 <Link to ="/todolist">
-                <h2>To Do List</h2>
+                <h2>To Get List</h2>
                 </Link>
 
 

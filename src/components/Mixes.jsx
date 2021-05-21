@@ -10,9 +10,9 @@ class Mixes extends Component {
       <ReactPlayer
         url="https://soundcloud.com/danger-vybz/africaniism-zim-independence-2021-live-mix"
       />
-      {/* <ReactPlayer
+      <ReactPlayer
         url="https://soundcloud.com/danger-vybz/africaniism-live-mix-3621"
-        /> */}
+        />
     </div>
     
                 
