@@ -106,7 +106,7 @@ a:hover {
 .navBar {
   border: 1px solid whitesmoke;
   background-color: whitesmoke;
-  height: 36vh;
+  height: 39vh;
   width: 10vw;
   box-shadow: black 7px 7px 7px;
   padding-left: 20px;
@@ -116,4 +116,16 @@ a:hover {
   font-size: 300px;
   padding-bottom: 700px;
   
+}
+
+.customers {
+  border: 1px solid whitesmoke;
+  height: 70vh;
+  width: 40vw;
+  box-shadow: black 7px 7px 7px;
+  background-color: whitesmoke;
+  /* grid-area: 2 / 2 / 5 / 5; */
+  opacity: 1;
+  padding-left: 30px;
+
 }

@@ -9,6 +9,7 @@ import Navbar from './Navbar'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 import Checklist from './Checklist';
+import Customers from './Customers';
 
 
 
@@ -29,6 +30,7 @@ class Container extends Component {
             <Route path="/mixes" component={Mixes}/>
             {/* <Route path="/genrebycountry" component={GenreCountry}/> */}
             {/* <Route path="/checklist" component={Checklist}/> */}
+            <Route path="/customers" component={Customers}/>
             </Switch>
 
             

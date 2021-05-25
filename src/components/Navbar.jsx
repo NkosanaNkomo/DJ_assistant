@@ -28,6 +28,9 @@ function Navbar() {
                 <Link to ="/todolist">
                 <h2>To Get List</h2>
                 </Link>
+                <Link to ="/customers">
+                <h2>Customers</h2>    
+                </Link>
 
 
                 
